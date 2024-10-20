@@ -1,0 +1,31 @@
+1.
+Statement
+              |
+          Assignment
+       __________|__________
+      |                        |
+  Identifier                 Expression
+      |                          |
+      A                     Term * Factor
+                             |       |
+                            Term * Factor
+                             |      |   |
+                        Factor  *  (Expression)
+                          |           |
+                        B         Term * Factor
+                                    |       |
+                                Factor  * (Expression)
+                                   |            |
+                                   C    Expression + Term
+                                            |         |
+                                         Identifier  Term
+                                            |          |
+                                            A          B
+
+2. 
+    a. v+u+z = 69 + 42 + 69 = 180
+    b. u = 126
+    c. since u was never modified, = 42
+
+
+
